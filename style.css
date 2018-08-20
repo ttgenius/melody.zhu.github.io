@@ -8,10 +8,10 @@
 }
 
 .clearfix { display: inline-block; }
-/* start commented backslash hack \*/
+
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
-/* close commented backslash hack */
+
 
 body {
     background: black;
@@ -44,6 +44,7 @@ body {
     background: white;
     border-radius: 5px;
     margin: 10px;
+    color:black;
 }
 
 .rectangle:hover {
@@ -62,29 +63,49 @@ body {
     z-index: 5;
 }
 
-#hover-content4 {
-    display:none;
-    color:black;
-    padding-left: 8px;
-    margin-top:160px;
-}
-#parent4:hover #hover-content4 {
-    display: inline-block;
-    overflow: hidden;
-    max-width: 100%;
-
-}
-
 #hover-content1 {
     display:none;
-    color:black;
-    padding-left: 8px;
-    margin-top:160px;
+    margin-top:120px;
+
 }
+
 #parent1:hover #hover-content1 {
     position: relative;
     display: inline-block;
     overflow: hidden;
     max-width: 100%;
+}
 
+#hover-content2 {
+    display:none;
+    margin-top:120px;
+}
+#parent2:hover #hover-content2 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+#hover-content3 {
+    display:none;
+    margin-top:120px;
+}
+
+#parent3:hover #hover-content3 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+#hover-content4 {
+    display:none;
+    margin-top:120px;
+}
+#parent4:hover #hover-content4 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
 }
